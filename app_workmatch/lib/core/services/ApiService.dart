@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 
 class ApiService {
-  static const String baseUrl = "http://10.0.2.2:8082";
+  static const String baseUrl = "https://workmatch-backend-d6f9.onrender.com";
 
   late Dio dio;
 

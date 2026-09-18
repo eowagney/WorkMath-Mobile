@@ -2,10 +2,6 @@ import 'dart:convert';
 import 'package:app_workmatch/core/config/AppConfig.dart';
 import 'package:http/http.dart' as http;
 
-/// Cliente HTTP centralizado.
-/// Toda chamada ao backend passa por aqui — nunca use http.get/post direto.
-///
-/// Injete via AppDependencies e repasse para os repositories.
 class ApiClient {
   ApiClient({String? token}) : _token = token;
 

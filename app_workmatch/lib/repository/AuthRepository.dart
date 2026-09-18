@@ -12,7 +12,7 @@ class AuthRepository {
   AuthRepository({required ApiClient apiClient}) : _api = apiClient;
 
   final ApiClient _api;
-  static const _userKey = 'workmatch_user';
+  static const _userKey = 'workmatch_backend';
 
   // ── Login ─────────────────────────────────────────────────────────────────
 
